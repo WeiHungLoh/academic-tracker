@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 100;
+  font-family: quicksand;
+}
+.dashboard {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.dashboard label {
+  text-align: left;
+  display: block;
+}
+.dashboard h2 {
+  font-size: 20px;
+  margin-left: auto;
+  margin-bottom: 50px;
+}
+.dashboard input {
+  width: 100%;
+  padding: 6px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1.5px solid #ddd;
+  box-sizing:inherit;
+}
+.dashboard .submit-button {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 70px; /* Adjust the value to your desired spacing */
+}
+.dashboard button {
+  color:#ddd;
+  background:#f1356d;
+  border: 0;
+  padding: 8px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.tasks-list {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tasks-list .assignment {
+  width: 100%;
+  max-width: 690px;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tasks-list .assignment h2 {
+  margin: 0 0 10px 0;
+  font-size: 24px;
+}
+.tasks-list .assignment p {
+  margin: 0;
+  font-size: 20px;
+  color: #666;
+}
+.tasks-list > button {
+  margin-top: 30px;
+}
+.tasks-list .button-group button {
+  color: #fff;
+  background: #f1356d;
+  border: 0;
+  padding: 8px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+.tasks-list .assignment-content p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+.tasks-list .assignment-content p:last-of-type {
+  font-weight: bold;
+  color: #f1356d; /* Or another color to highlight it */
+  margin-top: 5px; /* Space above the time left information */
+}
+.login {
+  max-width: 400px;
+  padding: 20px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login h2 {
+  font-size: 24px;
+  color: #f1356d;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.login label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+.login input {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1.5px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.login button {
+  width: 100%;
+  padding: 10px;
+  background-color: #f1356d;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.login button:hover {
+  background-color: #d12b5a;
+}
+.login p {
+  font-size: 14px;
+  color: red;
+  text-align: center;
+}
+.tasks-list .task-button {
+  margin: 40px;
+  display: flex;
+  gap: 70px; /* Adjust the value to your desired spacing */
+}
+.tasks-list button {
+  color:#ddd;
+  background:#f1356d;
+  border: 0;
+  padding: 8px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.navbar {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  font-size: 25px;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 30px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.exam {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.exam label {
+  text-align: left;
+  display: block;
+}
+.exam h2 {
+  font-size: 20px;
+  margin-left: auto;
+  margin-bottom: 50px;
+}
+.exam input {
+  width: 100%;
+  padding: 6px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1.5px solid #ddd;
+  box-sizing:inherit;
+}
+.exam .submit-button {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 70px; /* Adjust the value to your desired spacing */
+}
+.exam button {
+  color:#ddd;
+  background:#f1356d;
+  border: 0;
+  padding: 8px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
